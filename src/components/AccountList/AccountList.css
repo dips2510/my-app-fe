@@ -1,0 +1,30 @@
+.account-section{
+    margin:2rem;
+    padding:1rem;
+}
+.account-section-lbl{
+    font-size:3rem;
+    text-align: left;
+}
+.account-items{
+    list-style: none;
+    padding-left:0;
+}
+.account-items li{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+    padding: 1rem 1rem 1rem 1rem;
+    color: #098dc2;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+li:nth-child(even){
+    background:#efeded;
+    border-radius:.4rem;
+}
+
+li label{
+    cursor: pointer;
+}

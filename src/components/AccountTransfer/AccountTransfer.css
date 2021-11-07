@@ -1,0 +1,52 @@
+.account-transfer-section{
+    padding: 3rem;
+    position: relative;
+    border: 1.5px solid #ddd;
+    border-radius: 0.5rem;
+    margin-top: 4rem;
+}
+
+.transfer-form-title{
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 3rem;
+    position: absolute;
+    top: -1.3rem;
+    background: #fff;
+}
+
+.account-transfer-form{
+    text-align: left;
+    font-size: 1.6rem;
+}
+input, select, textarea{
+    padding: 0.8rem;
+    width: 100%;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+}
+.account-transfer-form label{
+    width:100%;
+}
+
+input:focus{
+    outline:none
+}
+
+.transfer-submit, .transfer-cancel{
+    font-size: 2rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor:pointer;
+}
+.transfer-submit{
+    background: #4f51d9;
+    color: #fff;
+}
+.error-lbl{
+    color:red;
+    font-size: 1.4rem;
+}

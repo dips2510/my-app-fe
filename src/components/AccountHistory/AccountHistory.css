@@ -1,0 +1,46 @@
+.account-history{
+    margin:2rem;
+    padding:1rem;
+}
+
+.account-history-lbl{
+    font-size: 3rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+table{
+    width:100%;
+    border-spacing:0;
+}
+thead{
+    font-size: 1.8rem;
+    background: #f8f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+tbody{
+    font-size: 1.5rem;
+    text-align: left;
+}
+thead tr td:nth-child(3), tbody tr td:nth-child(3){
+    text-align:right;
+}
+
+tr td{
+    border:1px solid #ccc;
+    padding:1rem;
+}
+
+.debit-lbl{
+    background: #f1d3d3;
+    color: #a20d0d;
+    padding: .5rem;
+    font-weight: bold;
+}
+.credit-lbl{
+    background: #beffbe;
+    color: green;
+    padding: .5rem;
+    font-weight: bold;
+}

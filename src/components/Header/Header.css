@@ -1,0 +1,31 @@
+.my-app-header{
+    display:flex;
+    justify-content: space-between;
+    padding:2rem;
+    border-bottom: 2px solid #efeded;
+}
+.title-lbl{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #05054d;
+    padding:1rem;
+}
+.accounts-lbl, .transfer-lbl{
+    font-size: 2rem;
+    border: none;
+    background: #d3ecf6;
+    color: #065272;
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.accounts-lbl:hover, .transfer-lbl:hover{
+    border:2px solid #065272;
+}
+.transfer-lbl{
+
+}
+.enable-lbl{
+    border:2px solid #065272;
+}
